@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* border: 1px solid; */
+}
+
+.navbar{
+    padding: 30px 0;
+    color: black;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    font-size: 23px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav-items li{
+    margin: 0 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-brand{
+    text-decoration: none;
+    color: black;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.home-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sub-title{
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.home-btn{
+    margin: 0 30px;
+}
+
+button{
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.about-title{
+    font-size: 28px;
+    margin-bottom: 9px;
+}
+
+.about-container{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.myimg{
+    width: 400px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.skill-title{
+    font-size: 28px;
+    margin-bottom: 30px;    
+}
+
+.skill-container{
+    margin-bottom: 100px;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin: 10px 0;
+}
+
+.centered-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.grid-items{
+    font-size: 50px;
+}
+
+.card-container{
+    width: 288px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-body{
+    padding: 10px;
+}
+.card-title{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.card-text{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    width: 400px;
+}
+.btn a {
+    text-decoration: none;
+}
+
+.demo-btn{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.code-btn{
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.project-card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.project-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-link-box{
+    width: 250px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: bisque;
+    margin-bottom: 100px;
+}
+.contact-link-body{
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.contact-text{
+    margin-bottom: 15px;
+}
+
+.contact-link-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 300px;
+    color: white;
+    padding: 30px;
+}
+
+.right-side{
+    display: flex;
+    list-style: none;
+}
+.home{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.home h4{
+    margin-bottom: 10px;
+}
